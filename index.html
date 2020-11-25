@@ -18,11 +18,14 @@
 
 </head>
 
+
+
 <body>
 
+    
 
     <!-- Top Bar -->
-    <div class="top-bar">
+    <div class="top-bar" ">
         <div class=" container">
             <div class=" col-12 text-right">
                 <ul class="social pt-0 mr-sm-0">
@@ -34,11 +37,13 @@
         </div>
     </div>
 
+    
+
     <!-- End Top Bar -->
 
     <!-- Navigation -->
     
-    <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-lg" id="Header">
         <div class="container">
             
             <a href="index.html" class="navbar-brand"><img src="" alt=""></a>
@@ -241,6 +246,26 @@
 
     <!-- Script Source Files -->
     
+    <!-- Sticky Header -->
+    <script>
+        window.onscroll = function(){myFunction()};
+    
+        var header = document.getElementById("Header");
+        var sticky = header.offsetTop;
+    
+        function myFunction()
+        {
+            if(window.pageYOffset > sticky)
+            {
+                header.classList.add("sticky");
+            }
+            else
+            {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
     <!-- jQuery -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <!-- Bootstrap 4.5 JS -->
