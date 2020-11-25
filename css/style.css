@@ -3,12 +3,13 @@ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   color: #616971;
+  background-color: rgb(17, 17, 17);
 }
 
 /*============= TOP BAR HEADER =============*/
 
 .top-bar{
-  background: #7ace7a;
+  background: #03023d;
   height: 2.8rem;
   padding: .5rem 0;
 }
@@ -78,6 +79,12 @@ footer .svg-inline--fa{
   font-size: 2.3rem;
 }
 
+.projectCarousel
+{
+  width: 50%;
+  margin-left: 25%;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
@@ -108,13 +115,30 @@ footer .svg-inline--fa{
 
 /*============= CAROUSEL =============*/
 
+#Project1{
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0 .1);
+}
+
 #carousel{
   box-shadow: 0 1rem 1rem rgba(0, 0, 0 .1);
 }
 
-.carousel-inner{
+.project-inner{
   max-height: 38rem !important;
 }
+
+.project-item-next,
+.project-item-prev,
+.project-item.active{
+  transition: transform .4s ease;
+}
+
+.project-caption{
+  position: absolute;
+  top: 80%;
+  text-transform: uppercase;
+}
+
 
 /*---Change Carousel Transition Speed --*/
 
