@@ -19,6 +19,51 @@ body {
   font-size: 1.1rem;
 }
 
+/* Contact Media 
+/Setting up Round Icons*/
+
+.fa{
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/*Linked In*/
+.fa-linkedin-in{
+  font-size: 30px;
+  background: #007bb5;
+  color: white;
+  border-radius: 10%;
+}
+
+.fa-linkedin-in:hover{
+  opacity: 0.7;
+}
+
+ul.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*Spaces out the logos of each media*/
+ul.social li{
+  margin: 0 auto;
+}
+
+footer{
+  background-color: #383838;
+  padding:1rem 2rem 3rem;
+}
+
+footer .svg-inline--fa{
+  font-size: 2.3rem;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
@@ -80,6 +125,12 @@ body {
   border-radius: 1rem;
 }
 
+.bg-custom-two{
+  background-color: rgb(4, 202, 202);
+  color: white;
+  border-radius: 1rem;
+}
+
 .carousel-caption h1{
   font-size: 3.0rem;
   text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
@@ -96,6 +147,11 @@ body {
 /*-- Emoji Navbar --*/
 
 
+/* Articles
+*/
+
+article{
+}
 
 /*============= FOOTER =============*/
 
