@@ -181,6 +181,172 @@ footer .svg-inline--fa{
 }
 /*===== FIXED BACKGROUND IMG =====*/
 
+/*===== FIXED SlideShow Container =====*/
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+.slideshow-container_2 {
+  position: relative;
+}
+
+.slideshow-container_3 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides_2 {
+  display: none;
+}
+
+.mySlides_3 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+.cursor_2 {
+  cursor: pointer;
+}
+
+.cursor_3 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev_slide,
+.next_slide {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container-slide {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+/* Container for image text */
+.caption-container-slide_2 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+/* Container for image text */
+.caption-container-slide_3 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column_slide {
+  float: left;
+  width: 33.33%;
+}
+
+/* Six columns side by side */
+.column_slide_2 {
+  float: left;
+  width: 33.33%;
+}
+
+/* Six columns side by side */
+.column_slide_3 {
+  float: left;
+  width: 33.33%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_1 {
+  opacity: 0.6;
+}
+
+.active_1,
+.demo_1:hover {
+  opacity: 1;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_2 {
+  opacity: 0.6;
+}
+
+.active_2,
+.demo_2:hover {
+  opacity: 1;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_3 {
+  opacity: 0.6;
+}
+
+.active_3,
+.demo_3:hover {
+  opacity: 1;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 
 
 /*-- Emoji Navbar --*/
@@ -211,6 +377,10 @@ article{
 
 }
 
+@media (min-width: 768px) {
+  .container-small {
+      width: 300px;
+  }
 
 /*============ BOOTSTRAP BREAK POINTS:
 
