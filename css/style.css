@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 /*-- Body Reset --*/
 body {
   overflow-x: hidden;
@@ -84,6 +88,8 @@ footer .svg-inline--fa{
   width: 50%;
   margin-left: 25%;
 }
+
+
 
 /*============= NAVIGATION =============*/
 
