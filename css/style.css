@@ -159,7 +159,7 @@ footer .svg-inline--fa{
 
 .carousel-caption{
   position: absolute;
-  top: 80%;
+  top: 75%;
   text-transform: uppercase;
 }
 
@@ -170,7 +170,7 @@ footer .svg-inline--fa{
 }
 
 .bg-custom-two{
-  background-color: rgb(138, 138, 138);
+  background-color: #cfcbcb;
   color: white;
   border-radius: 1rem;
   border-style: hidden;
@@ -353,25 +353,35 @@ footer .svg-inline--fa{
   to {opacity: 1}
 }
 
-
-
-/*-- Emoji Navbar --*/
-
-
-/* Articles
-*/
-
-article{
+#ItchIOBtn{
+  font-size: 100px;
+  color: white;
+  border: none;
+  background-color: red;
+  float: right;
 }
 
-/*============= FOOTER =============*/
 
+#downloadText{
+  color:dodgerblue;
+}
 
+/*Download Btn*/
+#downloadBtn{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 20px 11px;
+  cursor: pointer;
+  font-size: 10px;
+  border-radius: 150%;
+  
+}
 
-/*============= SOCKET =============*/
-
-
-
+/* Darker background on mouse-over */
+#downloadBtn:hover {
+  background-color: rgb(62, 236, 56);
+}
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
